@@ -9,10 +9,10 @@ on:
 jobs:
   build:
 
-    runs-on: ${{matrix.OS}}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        OS: [windows-latest, ubuntu-latest, macos-latest]
+        OS: 
     
 
     steps:
